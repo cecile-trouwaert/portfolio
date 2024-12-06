@@ -1,0 +1,202 @@
+body {
+    background-image: url(./images/8133913-fond-de-couleur-bleu-marine-avec-texture-grunge-gratuit-photo.jpg);
+    background-repeat: no-repeat;
+}
+
+/*Mise en place de l'header et du footer*/
+nav .linkheader {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 1%;
+    margin-bottom: 3%;
+}
+
+nav .linkheader a {
+    width: 200px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav a:hover {
+    text-decoration: none;
+    background-position: center;
+    background-size: center;
+    background-color: rgba(251, 194, 8, 0.906);
+    border-radius: 200px;
+    color: aliceblue;
+}
+
+.logo img {
+    max-width: 50px;
+    height: auto;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: end;
+    margin-top: 3%;
+}
+
+/*Différentes couleurs des textes*/
+
+a {
+    color: rgb(243, 8, 243);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    font-size: larger;
+}
+
+p {
+    color: rgb(243, 8, 243);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+}
+
+/*Mise en place de la page index*/
+
+h1 {
+    color: rgb(243, 8, 243);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 300%;
+    margin-top: -3%;
+}
+
+section.presentation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 8%;
+    margin-bottom: 7%;
+}
+
+.pres {
+    margin-left: 10px;
+    margin-right: 60px;
+}
+
+section.presentation {
+    animation-duration: 1.5s;
+    animation-name: slidein;
+    /* animation-direction: alternate; */
+}
+
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+        /* width:   300%; */
+        margin-top: 8%;
+        margin-bottom: 40%;
+    }
+    to {
+        margin-left: 10px;
+        /* width: 100%; */
+        margin-top: 8%;
+        margin-bottom: 7%;
+    }
+}
+
+.image1 img {
+    border-radius: 5px;
+    /*Arrondire les bords*/
+    box-shadow: 10px 10px 10px rgb(243, 8, 243);
+    /*Mettre une ombre*/
+}
+
+/*Mise en place de la page aboutme*/
+
+h2 {
+    color: rgb(243, 8, 243);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 200%;
+    margin-top: 3%;
+    text-align: center;
+    font-style: italic;
+}
+
+.creche img {
+    border-radius: 5px;
+    margin-left: 2%;
+}
+
+.cyber img {
+    border-radius: 5px;
+    display: flex;
+    justify-content: right;
+}
+
+.aboutme {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 8%;
+    margin-right: 20%;
+}
+
+.aboutmetext {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 8%;
+    margin-right: 8%;
+    text-align: center;
+}
+
+/*Mise en place de la page projet*/
+
+.project {
+    margin-top: 5%;
+    text-align: center;
+}
+
+.tictactoetext {
+    text-align: center;
+    text-decoration: underline rgb(243, 8, 243);
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.tictactoe {
+    display: flex;
+    justify-content: center;
+}
+
+
+.sitetext {
+    text-align: center;
+    text-decoration: underline rgb(243, 8, 243);
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.orelsan {
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+    margin-bottom: 5%;
+}
+
+.orelsan2 {
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+}
+
+/*Mise en place de la page contact*/
+
+h3 {
+    color: rgb(243, 8, 243);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.linkedincontact{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+}
